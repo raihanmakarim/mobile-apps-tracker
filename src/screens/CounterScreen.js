@@ -1,11 +1,10 @@
 import React from "react";
 import { Text, StyleSheet, View, Image } from "react-native";
 
-const ImageDetail = ({ title, imageSource }) => {
+const CounterScreen = () => {
   return (
     <View>
-      <Image source={imageSource} />
-      <Text style={styles.TextStyle}>{title}</Text>
+      <Text>Current Count:</Text>
     </View>
   );
 };
@@ -21,4 +20,5 @@ const styles = StyleSheet.create({
     fontSize: 30,
   },
 });
-export default ImageDetail;
+
+export default CounterScreen;
